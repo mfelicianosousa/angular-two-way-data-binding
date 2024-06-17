@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'twoWay';
+  name: string  = 'Marcelino';
+
+  handleInputChange(event: any){
+    //this.name = event;
+  }
 }
